@@ -14,6 +14,7 @@ export default NextAuth({
       //scope: 'read:user'
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   //jwt: {
   //signingKey: process.env.JWT_SIGNING_PRIVATE_KEY,
   //},
